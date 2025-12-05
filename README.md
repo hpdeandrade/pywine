@@ -1,7 +1,7 @@
 # Python3 in Wine in Docker
 
 ![License](https://img.shields.io/github/license/webcomics/pywine)
-![Maintenance](https://img.shields.io/maintenance/yes/2025)
+![GitHub last commit](https://img.shields.io/github/last-commit/webcomics/pywine)
 ![Docker Image Size](https://img.shields.io/docker/image-size/tobix/pywine/latest)
 
 This is a docker container to help building Python applications in Wine. It
@@ -29,6 +29,7 @@ to create an "usable" wineprefix:
 If you need older Python versions for some reason, there are currently tags for
 the following Python branches:
 
+ * Python 3.14.x: `tobix/pywine:3.14`
  * Python 3.13.x: `tobix/pywine:3.13`
  * Python 3.12.x: `tobix/pywine:3.12`
  * Python 3.11.x: `tobix/pywine:3.11`
